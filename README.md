@@ -51,8 +51,8 @@ module.exports = {
   owner: ['2348165226793'],
   botName: 'Pilsang Vasha Bot',
   sessionFolder: 'session',
-  publicMode: true,
-  openaiKey: 'your-openai-key-here'
+  privateMode: true,
+  openaiKey: 87a95b81ace8f67078352aea2d6f6310-5499022d-6113-49cb-aefa-b5ac4f27afb6
 };
 ```
 
@@ -61,7 +61,7 @@ module.exports = {
 3. Run t
 node index.js
 ```
-Scan the QR code with your WhatsApp and you're online!
+pair codes with your WhatsApp number and you're online!
 
 ---
 
@@ -73,9 +73,9 @@ Scan the QR code with your WhatsApp and you're online!
    - *Build command:* `npm install`
    - *Start command:* `npm start`
 4. Add environment variables:
-   - `openaiKey`
-   - `owner`
-   - `publicMode`
+   - `87a95b81ace8f67078352aea2d6f6310-5499022d-6113-49cb-aefa-b5ac4f27afb6`
+   - `owner pilsang`
+   - `privateMode`
 
 ---
 
